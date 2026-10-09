@@ -110,9 +110,9 @@ See [`samples/sample-output.txt`](samples/sample-output.txt) for the example app
 - Failed transactions and blocked sequences require an operational recovery or dead-letter strategy.
 - Production deployment would also require structured logging, monitoring, configuration management, security controls, and recovery testing.
 
-## 11. AI Assistance Disclosure
+## 11. Development Approach and AI Assistance
 
-AI assistance was used during development to help review the implementation approach, identify edge cases, develop test scenarios, and prepare documentation. The resulting code and tests were run and reviewed in the development environment. The candidate is responsible for understanding the implementation, verifying its behavior, and explaining its design decisions.
+AI tools were used as development aids for exploring implementation approaches, identifying test scenarios, and preparing documentation. The code was run and tested, and the design decisions and limitations are documented in this repository. I am responsible for reviewing the solution and explaining its behavior and trade-offs.
 
 ## 12. Repository
 
