@@ -1,0 +1,13 @@
+akinepellymanasa ➜ /workspaces/idempotent-transaction-processor (main) $ gradle run
+
+> Task :run
+Oct 09, 2026 4:17:32 PM com.example.transactions.TransactionProcessor process
+INFO: Processed transaction TXN001
+Credit: TransactionResult[transactionId=TXN001, status=PROCESSED, message=Processed successfully, attempts=1]
+Credit replay: TransactionResult[transactionId=TXN001, status=DUPLICATE, message=Transaction already registered; no additional effect, attempts=1]
+Debit: TransactionResult[transactionId=TXN002, status=PROCESSED, message=Processed successfully, attempts=1]
+Oct 09, 2026 4:17:32 PM com.example.transactions.TransactionProcessor process
+INFO: Processed transaction TXN002
+Final balance: 1150.00
+Summary: {PROCESSED=2}
+
